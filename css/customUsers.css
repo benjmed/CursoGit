@@ -1,0 +1,15 @@
+/*******************NUEVO**********************************/
+.cajaInt .form strong{font-size:1em}
+.form p{font-size:1.1em; line-height:1.5em;margin-left:1em;}
+.cajaInt .informacion p{line-height:1.5em;padding:38px 10px 27px 55px}
+.radio-button span{color:#000 !important}
+.tipo-label legend  span{background:url(../img/bg/link.png) no-repeat 0 .5em; padding-left:1em; margin-left:1em;margin-top:.2em}
+.form .tipo-label span{width:auto;margin-right:1em}
+.campos.radio-button{float:none;margin-left:2em !important; font-size:1.1em}
+.campos.radio-button label{width:100%;}
+.form .legend span, .form legend span {
+    background: url("../img/bg/bullet.gif") no-repeat scroll 0 0.5em transparent;
+    color: #1863A1;
+    font-weight: bolder;
+}
+/**********************************************************/

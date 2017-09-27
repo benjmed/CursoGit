@@ -1,0 +1,106 @@
+#capaEtiquetas{width:707px;	margin: 0 auto;padding-left:6px;}
+#imagenVerisign{border:0 none;vertical-align:middle;}
+
+#imagenXHTML{border:0 none;	vertical-align:middle;height: 31px;width: 88px;}
+
+.validationErrors{background:#F4E9E9 url(../img/alerta.gif) 5px 7px no-repeat;margin-bottom:10px;color:#A50505;padding:5px;font-weight:bold;border:1px solid #EAC6C6; line-height:1.5em}
+.validationErrors p{margin:2px 0 2px 26px!important;}
+
+.validationErrors2{font-size:.8em; color:#000;padding:5px;margin:0px;clear:both;}
+.validationErrors2 p{margin:2px 0 2px 0px!important;background:#E8E8E8; padding:5px;}
+
+.no{display:none;}
+
+.version{position:absolute;right:24px;top:85px;color:white;}
+
+.qq-upload-list{display:none;}
+
+#contenidoDer {
+	float: right;
+	width: 100%
+}
+
+.form input .readonly {
+	background-color: #fff;
+	border: 1px solid #C8C0B8;
+	color: #C8C0B8
+}
+
+.form label .readonly {
+	background-color: #D6E2F2;
+	border: 1px solid #C8C0B8;
+	color: #000000;
+	readonly: readonly;
+}
+
+.form .readonly {
+	background-color: #D6E2F2;
+	border: 1px solid #C8C0B8;
+	color: #000000;
+	readonly: readonly;
+}
+.form fieldset legend, .titulo3 {
+	background : none !important;
+}
+
+#cabecera{
+	padding-top:170px;
+	background: url("../img/cabecera.jpg") no-repeat top center;
+}
+
+.form label span.btn input {
+    border: medium none;
+    padding: 6px 10px 6px 7px;
+    width: auto;
+}
+
+.form label span.btn {
+    background: url("../img/btnazul-izq.gif") no-repeat scroll left center transparent;
+    border: medium none;
+    margin: 0;
+    padding: 0 0 0 4px !important;
+}
+
+.cc-faq .cc-manual a
+{
+  background-color: transparent;
+  #background-image: url("../img/bg/download.gif");
+  background-image: url("../img/bg/pdf-icon.png");  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  padding-top: 0.2em;
+  padding-right: 1em;
+  padding-bottom: 0em;
+  padding-left: 2em;
+  min-height: 5em;
+}
+
+.informacion {
+    position: relative !important;
+}
+
+
+.cc-faq  .cc-manual{
+    left: 88%;
+    position: absolute;
+    top: 13%;
+}
+
+.souligne {
+	text-decoration : underline !important;
+}
+.cajaTexto p {
+    margin-bottom: 1.2em;
+	font: 1em Arial;
+}
+.form fieldset legend span {
+    background: url("../img/bg/bullet.gif") no-repeat scroll 0 0.5em transparent;
+	padding: 0 0 1px 8px;
+    vertical-align: middle;
+    display: inline-block;
+	float : right;
+}
