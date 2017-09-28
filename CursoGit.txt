@@ -1,0 +1,85 @@
+*****************************************************
+****GIT es un sistema de control de versiones********
+*****************************************************
+git init
+git add -A
+git add index.html
+git status
+git config --global user.name 
+git config --global user.name "Simo"
+git config --global user.email
+git config --global color.ui true
+git config --global --list
+git commit -m "Iniciamos"
+git log
+git checkout db15dde8060239d14ba1ec364f92ea252de0f34
+git checkout master mueveme al ultimo commit que tengo
+git log > commits.txt
+git reset --soft c8b28dfe2543ce1df2d5e3880a684e272882bf3b
+*****************************************************
+El concepto Head : es el commit donde nos encontramos ahora
+git branch
+nos marca con un * la rama en la que estamos ahora
+git branch Test --> nos creara una rama que se llamara Test
+git checkout nos servira para movernos entre commits, y nos servira tb para movernos entre ramas
+git branch -d nombrerama : para borrar una rama
+Fusion : es la creacion de un nuevo commit juntando una rama con otra
+git merge xx  --> xx nombre rama que sera absorbida
+Fast-Forward : Simple y automatico
+Manual Merge : Largo y manual
+git checkout -b Text --> muevete a la rama Text, crear la rama al mismo tiempo
+**************************************************************
+****GITHUB es una plataforma donde nosotros podemos***********
+ guardar nuestros proyectos usando git para su gestion********
+**************************************************************
+git clone nos sirve para clonar un proyecto, normalemente, se usa cuando
+no nos interesa colaborar en el proyecto.
+Git remote vincula nuestro proyecto local, con nuestro proyecto remoto.
+Añadir mi repositorio local, al repositorio creado en Github-->git remote add origin https://github.com/benjmed/CursoGit.git
+git remote -v
+git remote add origin https://github.com/benjmed/CursoGit.git
+git remote remove origin
+git push origin master
+**************************************************************
+Los issues son una forma de continuar, mejorar o solucionar un error en
+nuestros repositorios (proyectos).
+**************************************************************
+Milestones: son grupos de issues que aplican para un proyecto, caracteristica
+o periodo de tiempo.
+**************************************************************
+Labels : son una manera de organizar diferentes tipos de problemas
+**************************************************************
+Los tags son simples puntos especificos en la historia de nuestro proyecto y se usan
+para marcar alguna versión del mismo.
+*********************************
+Para corregir mensage del commit : git commit --amend -m "cambio en el mensaje del commit"
+git push origin master -f --> forzar el commit
+creando Tags anotadas
+Las tags anotadas son almacendas como objetos completos dentro de la
+base de Git y contienen más información.
+********Git tags*****************************
+git tag -a v1.0 -m "Mensaje"
+ git tag -a v0.10 -m "versión 0.10 de nuestro proyecto"
+Las tags ligeras, son otra forma de crear tags, más simples y con
+poca información.
+git tag v1.0
+Especificando tags
+Al agregar el código SHA podemos especificar donde se va aplicar una etiqueta
+Ejemplo : git tag -a v1.0 -m 'Mensaje' 612d406
+Compartiendo nuestros tags
+subir un tag : git push origin v0.10
+subir todos los tags :  git push origin --tags
+****************Workflows*****************
+Un workflow es un flujo de trabajo o unos flujos de trabajos ya sea con propyectos propios o terceros
+git fetch
+git merge
+git branch -a --> nos muestra las ramas ocultas
+git fetch origin --> bajar los cambios
+git merge origin/master--> hacer merge con la rama oculta origen/master
+*************************************************
+***********GITHUB Pages**************************
+git branch gh-pages
+https://benjmed.github.io/CursoGit/
+
+
+
